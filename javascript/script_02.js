@@ -8,9 +8,6 @@ function sumAll(startIndex, endIndex) {
 	return sum;
 }
 
-
-
-
 var sum = sumAll(1,10)
 console.log(sum);
 

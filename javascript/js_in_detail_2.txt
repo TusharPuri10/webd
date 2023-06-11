@@ -1,0 +1,61 @@
+>>>>>>>>>>>>>>>>>>CASE:1
+var ctr = 0
+for(let i=0 ;i<10;i++)
+{
+    ctr=ctr+1;
+}
+console.log(ctr)
+
+How this javascript code runs ???
+
+javascript starts interpretting from line 1
+Now control reaches line 5 and then it goes to 3 again
+3 -> 5 -> 3 -> 5 ->....after 10 such iterations 
+
+control goes to line 7 and ctr is printted on the screen.
+
+
+>>>>>>>>>>>>>>>>>>>CASE:2
+fucntion func1 {
+    ...
+}
+
+fucntion func2 {
+    ...
+}
+
+function func3 {
+    ...
+}
+
+func1()
+func2()
+func3()
+
+control does not go inside the function definition it only goes inside function definetion when it is called.
+
+>>>>>>>>>>>>>>>>>>>>CASE:3
+fucntion count(first, last) {
+    var sum=0;
+    for(var i=first,i<=last;i++)
+        sum=sum+i;
+    return sum;
+}
+
+var answer = count(1,1000000)
+console.log(answer)
+
+In this case CPU will take so much time because javascript is single threaded (only use single core) it cannot do tasks parallely
+
+Can we break the tasks to run them parallely?????
+
+var answer1 = count(1,1000000/10)
+var answer2 = count(1000000/10,2000000/10)
+....
+
+still if we do this, it won't work. We will not be able to parallelize.
+
+So what will we do to make javascript do complex things parallely?????????????
+
+
+
