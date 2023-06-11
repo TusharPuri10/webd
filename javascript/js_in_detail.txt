@@ -1,0 +1,59 @@
+where can Js run
+
+Browser ( first people for whom js engine were made and then google came up with node js)
+Data centers
+Flight TV
+mobile Devices
+
+Javascript is single Threaded
+
+How many cores you have in your machine ???
+suppose 9 cores in machine.
+a core is like a place where your code can execute
+The more cores, the more powerful machine.
+
+JS written to be a single threaded, it will only use a single core so in aws if using js then buy only one core machine.
+sp we can say that js is very powerless machine.
+
+cannot delegate tasks in other threads.
+But there's some hack to do it. >>>interview answer is NO.
+
+Javasript is asynchronours
+
+harkirat talkin talkin talkin....bro stop go get me a chocolate(complex task in between)...come back and teach for another hour.
+
+what if harkirat said He'll send my friend!!!!...BUT harkira ( node js program ) you can not run parallely.
+
+Harkirat said that's my (node js's) asynchronous nature.... His friend is bringing the chocolate meanwhile he is teaching us.
+
+It can't be like Harkirat will teach only after his friend will brought chocolate, It will not be asynchronous
+HOW TO DO THIS ????? How to utilise this asynchronous natue of js?
+
+>>>>>>>>>>>>>CALLBACKS<<<<<<<<<<<<<<< ( check in script_06.js )
+
+
+Javascript is loosely typed ( helps beginners )
+
+Javascript is interpretted language ( Bro I'll go line by line, start executing from top if I'll get error I'll stop )
+
+C++ is compiled language, first it will compile(process of rechecking) (stage for running)
+
+If javascript will be compiled then lot's of website would break
+
+Native JS code<<<<<<<<<<
+
+var x = 2;
+Date
+Function
+Classes
+For loops
+
+APIs<<<<<<<<<<<<<<<<<<<<
+
+Exposed by the runtime enviornment
+
+every hardware of nodejs get exposed with such APIs and we use them for our need
+fetch
+setTimeout
+setInterval
+fs.read

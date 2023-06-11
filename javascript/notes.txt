@@ -1,0 +1,16 @@
+writing code in 0 and 1 is hard
+we made  a language ( Assembly ) ( High Level Language in respect of 0's & 1's) and a compiler to convert the programming language to 0 and 1's.
+
+Scripting language of web, meant to be only understood by browser.
+was JavaScript.
+
+Engine for Chrome, Firefox, Safari has to keep up with ECMAScriptStandard.
+
+
+Engine of browser responsible for converting JS and machine level language.
+
+They (Chrome, Firefox...)  each have their own unique version of engine.
+
+Node js is a Engine/JavaScript runtime which google wrote and now it is used by everyone now.
+
+
