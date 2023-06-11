@@ -55,7 +55,17 @@ var answer2 = count(1000000/10,2000000/10)
 
 still if we do this, it won't work. We will not be able to parallelize.
 
-So what will we do to make javascript do complex things parallely?????????????
+So what will we do to make javascript do complex things parallely????????????
 
+Asynchronous programming:
 
+Asynchronous programming is a technique that enables your program to start a potentially
+long-running task and still be able to be responsive to other events while that task runs,
+rather than having to wait until that task has finished.
+Once that task has finished, your program is presented with the result.
+
+>>>>>>>>se script_09.js and stop_watch.js
+
+Async Function setTimeout, setInterval, fetch
+Callbacks Function are those which are called by these async functions
 
