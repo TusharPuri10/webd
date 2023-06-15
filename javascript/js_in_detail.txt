@@ -57,3 +57,46 @@ fetch
 setTimeout
 setInterval
 fs.read
+
+
+Difference between let and var
+
+1. Scope
+
+function example() {
+  if (true) {
+    var varVariable = 'Var variable';
+    let letVariable = 'Let variable';
+  }
+  console.log(varVariable); // Output: Var variable
+  console.log(letVariable); // Throws an error: ReferenceError: letVariable is not defined
+}
+example();
+
+
+2. Hoisting
+
+console.log(varVariable); // Output: undefined
+var varVariable = 'Var variable';
+
+console.log(letVariable); // Throws an error: ReferenceError: letVariable is not defined
+let letVariable = 'Let variable';
+
+3. Re-declaration
+
+var x = 5;
+var x = 10;
+console.log(x); // Output: 10
+
+let y = 5;
+let y = 10; // Throws an error: SyntaxError: Identifier 'y' has already been declared
+
+
+4. Block Scope
+
+if (true) {
+  var varVariable = 'Var variable';
+  let letVariable = 'Let variable';
+}
+console.log(varVariable); // Output: Var variable
+console.log(letVariable); // Throws an error: ReferenceError: letVariable is not defined
