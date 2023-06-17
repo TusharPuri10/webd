@@ -1,0 +1,41 @@
+Backend
+
+    1. HTTP Servers
+        1. request methods
+        2. URL Route
+        3. Query Params Headers body
+        4. Status codes
+        5. Response HTML Json Text
+
+
+        Pre Internet Days:
+            Big-machine (UCLA) - Big-machine(MIT) - Big-Machine (USC)
+            They were the institutes which used to run algorithms on some machines. Problem: These machines never talked to each other.
+            UCLA don't know what MIT is running & vice versa
+
+        Client server model:
+            People realised that you can connect computers with wires.
+            suppose I want to run a algorithm which cannot run on my local machine( CLIENT ) so I use, let's say google colab ( SERVER )
+
+            some protocoals are defined to communicate, How communication happens between machines ?
+                protocoal(RULES) How request should go? How response should be recieved?
+
+            HTTP is one the protocoals which mostly machines used,
+            How to handle incoming traffic...blah ....blah (networking part)(start studying networking)
+
+            how can i code something that can use this clien server model...What does http server have to do...it needs to allow anyone
+            to talk to it.....needs to accept the input....needs to compute the algorithm....needs to return the output
+
+            Client -----> Server   In any communication between machine one will always be client and other will server
+
+
+
+
+
+    2. Authentication
+
+    3. Databases
+
+    4. Middlewares
+
+Frontend
