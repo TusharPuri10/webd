@@ -52,7 +52,7 @@ APIs<<<<<<<<<<<<<<<<<<<<
 
 Exposed by the runtime enviornment
 
-every hardware of nodejs get exposed with such APIs and we use them for our need
+    every hardware of nodejs get exposed with such APIs and we use them for our need
 fetch
 setTimeout
 setInterval
