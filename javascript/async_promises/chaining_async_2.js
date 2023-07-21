@@ -7,3 +7,5 @@ setTimeout(function medicince3get() {
         },1000)
     },2000)
 },3000)
+
+//callback hell
